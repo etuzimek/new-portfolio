@@ -40,7 +40,7 @@ const About = () => {
                     </div>
 
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur pariatur, id optio libero neque facere eum veniam distinctio magni sunt veritatis molestiae alias corrupti quod ab repellendus quos eos.
+                        I have recently completed courses in JavaScript and Node.js and I am eager to gain practical experience in these technologies. Although I have no prior experience, I am passionate about learning and applying my knowledge to real-world projects. I am committed to continuously improving my skills and contributing to the success of any team I am a part of.
                     </p>
 
                     <a href="#contact" className="btn btn-primary">Let's Talk</a>
