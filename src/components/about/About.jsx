@@ -21,6 +21,11 @@ const About = () => {
                 <div className="about__content">
                     <div className="about__cards">
                         <article className="about__card">
+                            <FiUsers className='about__icon' />
+                            <h5>Skills</h5>
+                            <small>Front & Back</small>
+                        </article>
+                        <article className="about__card">
                             <VscFolderLibrary className='about__icon' />
                             <h5>Projects</h5>
                             <small>5 Completed</small>
@@ -32,11 +37,6 @@ const About = () => {
                             <small>1+ Year</small>
                         </article>
 
-                        <article className="about__card">
-                            <FiUsers className='about__icon' />
-                            <h5>Skills</h5>
-                            <small>Front & Back</small>
-                        </article>
 
                     </div>
 
