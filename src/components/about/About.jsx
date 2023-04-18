@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/me-about.jpeg'
 import { BiRocket } from 'react-icons/bi'
 import { FiTerminal } from 'react-icons/fi'
 import { RiGitRepositoryLine } from 'react-icons/ri'
