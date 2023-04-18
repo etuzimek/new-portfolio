@@ -2,9 +2,9 @@ import React from 'react'
 import './projects.css'
 import IMG1 from '../../assets/apartment.jpg'
 import IMG2 from '../../assets/portfolio-old.png'
-import IMG3 from '../../assets/oldme.png'
-import IMG4 from '../../assets/oldme.png'
-import IMG5 from '../../assets/oldme.png'
+// import IMG3 from '../../assets/oldme.png'
+// import IMG4 from '../../assets/oldme.png'
+// import IMG5 from '../../assets/oldme.png'
 
 const data = [
     {
@@ -60,8 +60,8 @@ const Projects = () => {
                                 </div>
                                 <h3>{title}</h3>
                                 <div className="portfolio__item-cta">
-                                    <a href={github} className='btn' target='_blank'>Github</a>
-                                    <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+                                    <a href={github} className='btn' target='_blank' rel="noreferrer">Github</a>
+                                    <a href={demo} className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
                                 </div>
                             </article>
                         )
