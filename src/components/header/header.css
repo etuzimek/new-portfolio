@@ -41,7 +41,7 @@ header {
   content: "";
   width: 1px;
   height: 2rem;
-  background-color: var(--color-primary);
+  background: var(--color-primary);
 }
 
 /* ================= ME =============== */
@@ -55,9 +55,6 @@ header {
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
   padding: 5rem 1.5rem 1.5rem 1.5rem;
-}
-.me img {
-  height: 100%;
 }
 
 /* ================= SCROLL DOWN =============== */
@@ -74,7 +71,7 @@ header {
 
 @media screen and (max-width: 1024px) {
   header {
-    height: 80vh;
+    height: 68vh;
   }
 }
 
@@ -82,7 +79,7 @@ header {
 
 @media screen and (max-width: 600px) {
   header {
-    height: 80vh;
+    height: 100vh;
   }
   .header__socials,
   .scroll__down {
