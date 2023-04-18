@@ -1,10 +1,10 @@
 import React from 'react'
 import './projects.css'
-import IMG1 from '../../assets/apartment.jpg'
-import IMG2 from '../../assets/portfolio-old.png'
-// import IMG3 from '../../assets/oldme.png'
-// import IMG4 from '../../assets/oldme.png'
-// import IMG5 from '../../assets/oldme.png'
+import IMG1 from '../../assets/apatrament-new.png'
+import IMG2 from '../../assets/old-portfolio.png'
+import IMG3 from '../../assets/StartHelping.JPG'
+import IMG4 from '../../assets/BestShop.JPG'
+import IMG5 from '../../assets/CarSharing.JPG'
 
 const data = [
     {
@@ -18,29 +18,29 @@ const data = [
         id: 2,
         image: IMG2,
         title: 'Old Portfolio',
-        github: 'https://github.com/qazwaz/apartament3',
+        github: 'https://github.com/qazwaz/old-portfolio',
         demo: 'https://et-portfolio.web.app/'
     },
     {
         id: 3,
-        image: IMG1,
+        image: IMG3,
         title: 'Start Helping',
-        github: 'https://github.com/qazwaz/apartament3',
-        demo: 'https://silver-fox-e6696b.netlify.app/'
+        github: 'https://github.com/qazwaz/Start-helping',
+        demo: 'https://et-starthelping.web.app'
     },
     {
         id: 4,
-        image: IMG1,
+        image: IMG4,
         title: 'Best Shop',
-        github: 'https://github.com/qazwaz/apartament3',
-        demo: 'https://silver-fox-e6696b.netlify.app/'
+        github: 'https://github.com/qazwaz/BestShop',
+        demo: 'https://et-bestshop.web.app/'
     },
     {
         id: 5,
-        image: IMG1,
+        image: IMG5,
         title: 'Car Sharing',
-        github: 'https://github.com/qazwaz/apartament3',
-        demo: 'https://silver-fox-e6696b.netlify.app/'
+        github: 'https://github.com/qazwaz/BestShop',
+        demo: 'https://et-carsharing.web.app/'
     }
 ]
 
@@ -55,7 +55,7 @@ const Projects = () => {
                     data.map(({ id, image, title, github, demo }) => {
                         return (
                             <article key={id} className='portfolio__item'>
-                                <div className="portfolio__itme-image">
+                                <div className="portfolio__item-image">
                                     <img src={image} alt={title} />
                                 </div>
                                 <h3>{title}</h3>

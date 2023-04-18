@@ -1,9 +1,9 @@
 import React from 'react'
 import './about.css'
 import ME from '../../assets/me-about.jpg'
-import { FaAward } from 'react-icons/fa'
-import { FiUsers } from 'react-icons/fi'
-import { VscFolderLibrary } from 'react-icons/vsc'
+import { BiRocket } from 'react-icons/bi'
+import { FiTerminal } from 'react-icons/fi'
+import { RiGitRepositoryLine } from 'react-icons/ri'
 
 const About = () => {
     return (
@@ -21,18 +21,18 @@ const About = () => {
                 <div className="about__content">
                     <div className="about__cards">
                         <article className="about__card">
-                            <FiUsers className='about__icon' />
+                            <FiTerminal className='about__icon' />
                             <h5>Skills</h5>
                             <small>Front & Back</small>
                         </article>
                         <article className="about__card">
-                            <VscFolderLibrary className='about__icon' />
+                            <RiGitRepositoryLine className='about__icon' />
                             <h5>Projects</h5>
                             <small>5 Completed</small>
                         </article>
 
                         <article className="about__card">
-                            <FaAward className='about__icon' />
+                            <BiRocket className='about__icon' />
                             <h5>Experience</h5>
                             <small>1+ Year</small>
                         </article>
