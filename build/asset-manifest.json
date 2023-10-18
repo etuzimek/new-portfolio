@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.6d73b60e.css",
-    "main.js": "/static/js/main.6f6a1c64.js",
+    "main.js": "/static/js/main.7967ce2a.js",
     "static/media/me.png": "/static/media/me.5404c581dc76f4e8590d.png",
     "static/media/apatrament-new.png": "/static/media/apatrament-new.2639380a56f1e4019954.png",
     "static/media/old-portfolio.png": "/static/media/old-portfolio.2815b7066d9db5e9e020.png",
     "static/media/CarSharing.JPG": "/static/media/CarSharing.2b3bf57060ffb49eaced.JPG",
     "static/media/me-about.jpeg": "/static/media/me-about.0f33946e8e4154ee20fe.jpeg",
     "static/media/BestShop.JPG": "/static/media/BestShop.0a3b25c2f1bd0c99465c.JPG",
+    "static/media/cv.pdf": "/static/media/cv.00571fd90c2b7decbaf0.pdf",
     "static/media/StartHelping.JPG": "/static/media/StartHelping.d48cdc2cf95b731605d8.JPG",
-    "static/media/cv.pdf": "/static/media/cv.8aea8c84bdaa61764ea3.pdf",
     "index.html": "/index.html",
     "main.6d73b60e.css.map": "/static/css/main.6d73b60e.css.map",
-    "main.6f6a1c64.js.map": "/static/js/main.6f6a1c64.js.map"
+    "main.7967ce2a.js.map": "/static/js/main.7967ce2a.js.map"
   },
   "entrypoints": [
     "static/css/main.6d73b60e.css",
-    "static/js/main.6f6a1c64.js"
+    "static/js/main.7967ce2a.js"
   ]
 }
